@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>imu_calib</name>
+  <version>0.1.0</version>
+  <description>ROS 2 package for IMU calibration</description>
+
+  <maintainer email="your_email@example.com">Your Name</maintainer>
+  <license>BSD</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>rclcpp</depend>
+  <depend>sensor_msgs</depend>
+  <depend>yaml-cpp</depend>
+  <depend>Eigen3</depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
