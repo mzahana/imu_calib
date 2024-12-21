@@ -50,11 +50,14 @@ Ensure you have the following dependencies installed:
 
 ### Clone and Build
 ```bash
+# Create ros2_ws
+mkdir -p $HOME/ros2_ws/src
+
 # Clone the repository
-git clone https://github.com/your-username/imu_calib.git
+git clone https://github.com/mzahana/imu_calib.git
 
 # Navigate to the workspace
-cd your_workspace/src
+cd $HOME/ros2_ws/src
 
 # Build the package
 colcon build
@@ -167,7 +170,7 @@ This project is licensed under the BSD License. See the [LICENSE](LICENSE) file 
 ## Authors
 
 - **Daniel Koch** - Original Developer
-- **[Your Name]** - ROS 2 Migration
+- **Mohamed Abdelkader** - ROS 2 Migration
 
 ---
 
