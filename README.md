@@ -76,7 +76,7 @@ source install/setup.bash
 
 #### Launch the Calibration Node
 ```bash
-ros2 run imu_calib do_calib \
+ros2 run imu_calib do_calib_node \
 --ros-args \
   -p measurements:=1000 \
   -p reference_acceleration:=9.81 \
@@ -96,7 +96,7 @@ ros2 run imu_calib do_calib \
 
 #### Launch the Apply Calibration Node
 ```bash
-ros2 run imu_calib apply_calib \
+ros2 run imu_calib apply_calib_node \
 --ros-args \
   -p calib_file:=/path/to/custom_calib.yaml \
   -p calibrate_gyros:=false \
